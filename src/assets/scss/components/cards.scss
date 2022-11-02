@@ -1,0 +1,13 @@
+.card {
+    border-radius: $border-radius-sm;
+    box-shadow: $card-shadow;
+    transition: $transition-shadow;
+    &.card__blur { 
+        background-color: rgba($white, .85);
+        backdrop-filter: blur(6px);
+        position: relative;
+    }
+}
+.card__body {
+    position: relative;
+}

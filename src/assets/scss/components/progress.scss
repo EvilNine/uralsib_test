@@ -1,0 +1,15 @@
+.progress {
+    transform: rotate(-90deg);
+    &__bar {
+        fill: transparent;
+        &-static {
+            stroke: $gray;
+            stroke-width: 3;
+        }
+        &-value {
+            stroke: $primary;
+            stroke-width: 4;
+            stroke-linecap: round;
+        }
+    }
+}

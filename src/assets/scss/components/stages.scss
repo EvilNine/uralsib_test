@@ -1,0 +1,24 @@
+.stages {
+    &__progress {
+        position: relative;
+        width: 44px;
+        height: 44px;
+        &-num {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            color: $primary;
+            font-size: 1.125rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+    &__title {
+        
+        line-height: 1.5;
+        @include media-breakpoint-up(xl) {
+            position: absolute;
+        }
+    }
+
+}
